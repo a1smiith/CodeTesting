@@ -5,7 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve --mode dev",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
 
 
   },
