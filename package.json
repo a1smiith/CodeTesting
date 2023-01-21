@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --mode dev",
-    "build": "vue-cli-service build",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "lint": "vue-cli-service lint",
-      "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-      "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+      "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
 
 
   },
